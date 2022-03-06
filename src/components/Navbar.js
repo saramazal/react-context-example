@@ -1,10 +1,12 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { BookContext } from '../contexts/BookContext';
 
 const Navbar = () => {
-    return (
+  const { books } = useContext(BookContext);
+  return (
     <header className="navbar">
-      <h1>READING LIST</h1>
-      <h2>for Web Programmer</h2>
+      <h1>Ninja Reading List</h1>
+      <h2>Currently you have {books.length} books to get through...</h2>
     </header>
   );
 }

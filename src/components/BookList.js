@@ -6,8 +6,8 @@ const BookList = () => {
   const { books } = useContext(BookContext);
   return books.length ? (
     <div className="book-list">
-   <h3>Currently you have {books.length} books to get through...</h3>
-           <ul>{books.map(book => {
+      <ul>
+        {books.map(book => {
           return ( <BookDetails book={book} key={book.id} /> );
         })}
       </ul>
