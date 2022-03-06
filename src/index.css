@@ -111,4 +111,18 @@ input[type="submit"] {
 input[type="submit"]:hover {
     transform: scale(1.1);
     background-color: #ff00cc;
+ }
+ 
+ form {
+margin-top: 3em;
+}
+.title {
+    font-size: 2em;
+}
+
+.author {
+    font-size: 1.2em;
+}
+.empty {
+    margin-top: 3em;
 }
