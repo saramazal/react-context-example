@@ -45,16 +45,19 @@ h2 {
     text-align: center;
     transition: all 0.3s ease;
 }
+
 h3 {
     margin: 10px;
     padding: 7px;
     font-weight: 500;
     font-size: 1.3em;
     color: #07b2ff;
-  }
-  h3:hover { 
+}
+
+h3:hover {
     color: #ff00cc;
 }
+
 .App {
     margin: 30px auto;
     text-align: center;
@@ -111,11 +114,12 @@ input[type="submit"] {
 input[type="submit"]:hover {
     transform: scale(1.1);
     background-color: #ff00cc;
- }
- 
- form {
-margin-top: 3em;
 }
+
+form {
+    margin-top: 3em;
+}
+
 .title {
     font-size: 2em;
 }
@@ -123,6 +127,33 @@ margin-top: 3em;
 .author {
     font-size: 1.2em;
 }
+
 .empty {
     margin-top: 3em;
+}
+
+@media (max-width: 700px) {
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        margin: 40px auto;
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+    }
+    input {
+        margin: 0.5em;
+    }
+    h1 {
+        font-size: 6vw;
+    }
+    h2 {
+        font-size: 5vw;
+    }
+    .empty {
+        margin: 3em;
+    }
 }
