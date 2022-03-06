@@ -1,4 +1,4 @@
-import uuid from 'uuid/v4';
+import { uuid } from 'uuidv4';
 
 export const bookReducer = (state, action) => {
   switch (action.type) {
