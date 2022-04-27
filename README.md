@@ -32,7 +32,7 @@ npm start
 
 ## Demo
 * [![Netlify Status](https://api.netlify.com/api/v1/badges/cd5f5ddc-0ba9-49be-a0dd-722745fb649f/deploy-status)](https://app.netlify.com/sites/react-reducer-booklist/deploys)
-* [Vercel](https://react-context-example-iota.vercel.app/)
+
 
 
 ## Status
