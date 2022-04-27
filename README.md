@@ -24,7 +24,7 @@ This project was based on one of [TheNetNinja](https://www.youtube.com/c/TheNetN
 * [REACT](https://reactjs.org/docs/getting-started.html/)
 * [Node](https://nodejs.org/en/)
 * [npm](https://www.npmjs.com/)
-* [Vercel](https://vercel.com/dashboard)
+
 
 ## Setup
 npm install
