@@ -47,6 +47,7 @@ h2 {
     color: #07b2ff;
     text-align: center;
     transition: all 0.3s ease;
+    padding: 0 30px;
 }
 
 h3 {
@@ -62,7 +63,7 @@ h3:hover {
 }
 
 .App {
-    margin: 30px auto;
+    margin: auto;
     text-align: center;
 }
 
